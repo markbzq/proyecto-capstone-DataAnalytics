@@ -23,6 +23,7 @@ Hasta ahora el equipo trabajó dos candidatos a fondo:
 - [ ] Si se mantiene Proyecto 1 o 2: cerrar la sección de variables predictoras (explícitas / derivadas / proxy) y el chequeo de leakage para Phase 1.
 - [ ] Correr el modelo real a nivel de ocupación (Proyecto 1) o terminar de documentar el gap de adopción vs. capacidad (Proyecto 2).
 - [ ] Cada integrante: usar el prompt en [`team/ai-context-prompt.md`](team/ai-context-prompt.md) con su propia IA para volcar a este repo lo que tenga de sus propias conversaciones.
+- [ ] Correr `notebooks/project1_data_pipeline.ipynb` en Google Colab (carga Anthropic Economic Index + O*NET, empareja por código SOC, guarda `data/processed/project1_train.csv` y `project1_predict.csv`).
 - [ ] Armar la respuesta única de Phase 0 para enviar al profesor con todo el equipo en copia.
 
 ## Cómo usar este repo (humanos e IA)
@@ -36,6 +37,7 @@ Hasta ahora el equipo trabajó dos candidatos a fondo:
 
 ```
 docs/        → el texto original de la asignación (Phase 0 y Phase 1)
+notebooks/   → notebooks de Colab/Jupyter para correr el pipeline de datos y modelos
 projects/    → un folder por proyecto candidato
 data/        → las fuentes de datos y links, compartidas entre proyectos
 team/        → el prompt para que cada IA del equipo contribuya aquí
